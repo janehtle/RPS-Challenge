@@ -14,5 +14,7 @@ The game has a user interface with buttons that allows users to select rock, pap
 
 # Timeline
 Date assigned: July 14th 2025
+
 Date started: July 16th 2025
+
 Date completed: July 18th 2025
