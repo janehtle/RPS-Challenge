@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="rpsContainer">
+        <h1 id="gameTitle">가위 바위 보!</h1>
+
+        <div class="choices">
+            <button onclick="playGame('ROCK')">👊</button>
+            <button onclick="playGame('PAPER')">🖐️</button>
+            <button onclick="playGame('SCISSOR')">✌️</button>
+        </div>
+
+        <div id="playerDisplay">PLAYER:</div>
+        <div id="aiDisplay">OPPONENT:</div>
+        <div id="resultDisplay">It's a TIE!</div>
+
+    </div>
+
+    <!-- Chrome browser no longers support audio autoplay
+    <audio autoplay loop>
+        <source src="squidgamewbt.mp3" type="audio/mp3">
+    </audio>
+    -->
+    <script src="script.js"></script>
+</body>
+</html>
