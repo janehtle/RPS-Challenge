@@ -1,4 +1,5 @@
-# 가위 바위 보! Translation: Rock Paper Scissors!
+# 가위 바위 보!
+#Translation: Rock Paper Scissors!
 
 Rock, Paper, Scissors game inspired by Korean Netflix original 'Squid Game.'
 The game has a user interface with buttons that allows users to select rock, paper or scissors which will be validated and allow the computer to generate a random choice (rock, paper, or scissors) and display it. Both choices will be compared and a display will appear determining the result of the round.
