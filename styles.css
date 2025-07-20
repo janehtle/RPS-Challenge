@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url("images/sg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100vh;
@@ -23,15 +23,15 @@ body{
     transform: translate(-50%, -50%);
 }
 
-h1{
+h1 {
     font-size: 3.5rem;
 }
 
-.choices{
+.choices {
     margin-bottom: 30px;
 }
 
-.choices button{
+.choices button {
     font-size: 7.5rem;
     min-width: 160px;
     margin: 0 10px;
@@ -41,25 +41,39 @@ h1{
     transition: background-color 0.5s ease;
 }
 
-.choices button:hover{
+.choices button:hover {
     background-color: rgb(251, 208, 222);
 }
 
-#playerDisplay, #aiDisplay{
+#playerDisplay, #aiDisplay {
     font-size: 2.5rem;
 }
 
-#resultDisplay{
+#resultDisplay {
     font-size: 5rem;
     margin: 30px 0;
 }
 
-.greenText{
+.greenText {
     color: green;
 }
 
-.redText{
+.redText {
     color: red;
+}
+
+#restart {
+    cursor: pointer;
+    background-color: rgb(225, 46, 106);
+    border: 2px solid gray;
+    border-radius: 50px;
+    padding: 0.6rem 0.7rem;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#restart:active {
+    background-color: rgb(163, 30, 74);
 }
 
 /* --- media query for tablet --- */
@@ -74,3 +88,31 @@ h1{
         justify-content: center;
     }
 }
+
+/* --- media query for mobile --- */
+@media screen and (min-width: 425px) and (max-width: 767px) {
+    .rpsContainer {
+        width: 80%;
+    }
+
+    #gameTitle {
+        font-size: 3rem;
+    }
+    .choices button {
+        font-size: 3rem;
+        min-width: 50px;
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    #playerDisplay, #aiDisplay {
+    font-size: 1.5rem;
+}
+
+    #resultDisplay {
+    font-size: 3rem;
+}
+}
+
